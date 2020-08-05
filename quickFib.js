@@ -1,4 +1,4 @@
-let fibs = n => {
+const fibs = n => {
 
   if (n === 0 || n === 1) { return 1 }
   const fibNums = [1, 1];
